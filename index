@@ -1,0 +1,43 @@
+# MasterG7
+Primer repositorio para experimentación del master
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title> RETO 2 !</title>
+<FONT FACE="impact" SIZE=6 COLOR="red"> RETO Nº 2 </FONT>
+<h1><FONT FACE="roboto" SIZE=12 COLOR="purple">
+    Base Datos Computadores </FONT></h1>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/misFunciones.js"></script>
+</head>
+
+<body>
+    
+    <FONT FACE="roboto medium" SIZE=6 COLOR="coral"> <h2> Tabla de computadores disponibles </h2> </FONT>
+    <div id="resultado"></div> 
+    <button onclick="traerInformacion()"> <FONT FACE="roboto" SIZE=4 COLOR="dark violet">
+        consultar </FONT> </button>
+    <div> 
+            <input type="number" id="id" placeholder="id">
+            <input type="text" id="brand" placeholder="brand">
+            <input type="number" id="model" placeholder="model">
+            <input type="number" id="category_id" placeholder="category_id">
+            <input type="text" id="name" placeholder="name">
+    </div>
+        
+    <button onclick="guardarInformacion()">  <FONT FACE="roboto" SIZE=4 COLOR="dark violet">
+        Guardar   </FONT> </button>
+    <button onclick="editarInformacion()"> <FONT FACE="roboto" SIZE=4 COLOR="dark violet">
+        Actualizar   </FONT> </button>
+
+
+</body>
+
+
+
+
+</html>
