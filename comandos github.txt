@@ -58,7 +58,7 @@ $ git add . = nuevamente
 $ git commit -m "Mensajes" = comando para enviar mensajes al repo
 
 $ git push -u origin ramaNicolas = comando para crear una nueva rama en el repo remoto.
-
+$ git pull https://github.com/NicolasAlemam/MasterG7.git = comando para traer el repo de remoto a local
 
 
 
