@@ -1,9 +1,9 @@
-IIII   II IIIIIIIII IIIIIIIII
-II II  II II        II     II
-II  II II II    III IIIIIIIII
-II   IIII IIIIIIIII II     II
-_____________________________
------------------------------
+IIII   II IIIIIIIII IIIIIIIII   _______    _______    __________    ________
+II II  II II        II     II  |   ____|| |   ____|| |___    ___|| |   __   || 
+II  II II II    III IIIIIIIII  |  |___    |  |____       |  ||     |  |__|  ||
+II   IIII IIIIIIIII II     II  |   ___||  |____   ||     |  ||     |   __   ||
+_____________________________  |  |____    ____|  ||     |  ||     |  |  |  ||
+-----------------------------  |_______|| |_______||     |__||     |__|  |__||
 
 Usuario = NicolasAleman
 
@@ -12,8 +12,8 @@ Usuario = NicolasAleman
 $ git version = comando para saber la version del github
 $ ls = comando para entrar en la carpeta
 $ pwd = comando para saber en que carpena nos encontramos
-$ cd nombredecarpeta = comando para entrar a la carpeta
-
+$ cd nombredecarpeta = comando para entrar a la carpeta o buscar el archivo
+  ($ cd /c/Users/USUARIO/....carpeta)
 ruta del master https://github.com/NicolasAlemam/MasterG7.git
 
 $ mkdir = comando para crear una nueva carpeta 
@@ -37,7 +37,32 @@ ejemplo:
 $ git remote add origin https://github.com/NicolasAlemam/MasterG7.git
 $ git push origin master
 
-
+$ git clone https://github.com/NicolasAlemam/MasterG7.git = Descarga el repositorio de la rama master y abre una nueva carpeta
 -----------------------------------------------------------------------------------------------------------------------
+-- Desarrollo en ramas ------------------------------------------------------------------------------------------------
+
+$ git branch = muestra las ramas
+$ git branch-list = muestra las ramas no funciona en git bash
+
+*master SE IMPRIME ASI.
+
+$ git branch NOMBREDENUEVARAMA = crea otra rama
+$ git checkout NOMBREDENUEVARAMA = es obligatorio para trabajar en la rama local ya que de lo contrario sigue en el master
+				   sirve para cambiar de una rama a otra
+
+*NOMBREDENUEVARAMA debe imprimir asi para poder trabajar en la rama indicada
+
+$ git status on branch desarrollo
+
+$ git add . = nuevamente 
+$ git commit -m "Mensajes" = comando para enviar mensajes al repo
+
+$ git push -u origin ramaNicolas = comando para crear una nueva rama en el repo remoto.
+
+
+
+
+
+
 listado de tokens
 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       90dias dura 6 oct 2021
