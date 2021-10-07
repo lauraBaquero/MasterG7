@@ -12,7 +12,6 @@ Usuario = NicolasAleman
 $ git version = comando para saber la version del github
 $ ls = comando para entrar en la carpeta
 $ pwd = comando para saber en que carpena nos encontramos
-$ cd nombredecarpeta = comando para entrar a la carpeta
 
 ruta del master https://github.com/NicolasAlemam/MasterG7.git
 
